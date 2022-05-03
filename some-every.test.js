@@ -7,23 +7,23 @@ describe("#hasOddNumber", function () {
   });
 });
 
-// describe("#hasAZero", function() {
-//   it("returns true if the number contains at least one 0", function() {
-//     expect(hasAZero(33321232131012)).toEqual(true);
-//   });
-//   it("returns false if the number does not have any zeros", function() {
-//     expect(hasAZero(1212121)).toEqual(false);
-//   });
-// });
+describe("#hasAZero", function () {
+  it("returns true if the number contains at least one 0", function () {
+    expect(hasAZero(33321232131012)).toEqual(true);
+  });
+  it("returns false if the number does not have any zeros", function () {
+    expect(hasAZero(1212121)).toEqual(false);
+  });
+});
 
-// describe("#hasOnlyOddNumbers", function() {
-//   it("returns true if every number in the array is odd", function() {
-//     expect(hasOnlyOddNumbers([1, 3, 5, 7])).toEqual(true);
-//   });
-//   it("returns false if there is one or more even numbers ", function() {
-//     expect(hasOnlyOddNumbers([1, 2, 3, 5, 7])).toEqual(false);
-//   });
-// });
+describe("#hasOnlyOddNumbers", function () {
+  it("returns true if every number in the array is odd", function () {
+    expect(hasOnlyOddNumbers([1, 3, 5, 7])).toEqual(true);
+  });
+  it("returns false if there is one or more even numbers ", function () {
+    expect(hasOnlyOddNumbers([1, 2, 3, 5, 7])).toEqual(false);
+  });
+});
 
 // describe("#hasNoDuplicates", function() {
 //   it("returns true if there are no duplicates in the array", function() {
